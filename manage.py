@@ -2,10 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import datetime
 
 def main():
-    datetime.datetime.now(timezone.utc)
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ToDo.settings')
     try:
